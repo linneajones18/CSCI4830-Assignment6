@@ -6,3 +6,12 @@
 body {
   padding-top: 56px;
 }
+
+.btn {
+  background-color: #000080;
+}
+
+.btn:focus {
+  background-color: #3333FF;
+  border: 2px solid white;
+}
