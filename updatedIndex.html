@@ -22,7 +22,8 @@
 
   <!-- Navigation -->
   <!-- nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" -->
-    <div class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #242727;">
+  <header role="banner">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #242727;">
       <div class="container">
         <a class="navbar-brand" href="#">AHG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +56,8 @@
           <!-- /ul -->
           
           </div>
-        </div>
+        </nav>
+  </header>
     
   <!-- /nav -->
   </div>
@@ -64,10 +66,12 @@
   <!-- Page Content -->
   <div class="container">
 
+    <main class role="main">
+
     <br>
     <img class="img-fluid rounded mb-4 mb-lg-0" src="images/AHG Conference Logo (2019).jpg" alt="Accessing Higher Ground logo">
     <h1 style="font-family: Arial, sans-serif; text-align: center;">Accessing Higher Ground: Acessible Media, Web and Technology Conference</h1> <br>
-    <hr style="margin: 20px auto; border: px solid #242727">
+    <hr style="margin: 20px auto; border: 3px solid #242727">
 
 
   <!-- Heading Row -->
@@ -91,25 +95,29 @@
     </div>
   </div>
 
+  </main>
+
     <!-- /.row -->
 
     <!-- Call to Action Well -->
-    <div class="card text-white my-5 py-4 text-center" style="background-color: #242727;">
+    <aside class="card text-white my-5 py-4 text-center" style="background-color: #242727;">
       <div class="card-body">
       <h1 style="float:left; font-size:1.25em; color:white;">Testimonials</h1>
         <p style="clear:left; color:white;">&ldquo;A great conference for assistive  technology and web accessibility professionals in higher education.&rdquo; </p>
         <p style="color:white;">– Lisa  Marie Fiedor, Web Accessibility, Usability, &amp; Design Specialist, North  Carolina State University      </p>
       </div>
-    </div>
+    </aside>
 
     <!-- Content Row -->
     <div class="row">
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
+            <section>
           <!-- was h2 -->
               <h2 class="card-title">Annual Conference</h2>
-            <p class="card-text">Attend over 120 sessions, including hands-on labs, on topics ranging from accessible PDFs to accessible teaching practices to legal and policy issues.</p>
+              <p class="card-text">Attend over 120 sessions, including hands-on labs, on topics ranging from accessible PDFs to accessible teaching practices to legal and policy issues.</p>
+            </section>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary btn-sm">Read more about our annual conferences</a>
@@ -120,8 +128,10 @@
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <h2 class="card-title">Video and Audio</h2>
-            <p class="card-text">Visit our video and audio library of past conference sessions.</p>
+            <section>
+              <h2 class="card-title">Video and Audio</h2>
+              <p class="card-text">Visit our video and audio library of past conference sessions.</p>
+            </section>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary btn-sm">Read more about our audio and video library</a>
@@ -133,8 +143,10 @@
         <div class="card h-100">
           <div class="card-body">
           <!-- was h2 -->
-            <h2 class="card-title">Webinars</h2>
-            <p class="card-text">AHG also conducts every other month webinars on web accessibility and curriculum accessibility topics.</p>
+            <section>
+              <h2 class="card-title">Webinars</h2>
+              <p class="card-text">AHG also conducts every other month webinars on web accessibility and curriculum accessibility topics.</p>
+            </section>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary btn-sm">Read more about our webinars</a>
@@ -151,7 +163,7 @@
 
   <!-- Footer -->
   <!-- footer class="py-5 bg-dark"  -->
-  <div class="py-5" style="background-color: #242727;">
+  <footer class="py-5" style="background-color: #242727;" role="contentinfo">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
     </div>
